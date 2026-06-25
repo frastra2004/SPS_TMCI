@@ -52,3 +52,5 @@ def top_frequencies(x, fs, n=10):
     strongest = strongest[:n]
 
     return list(zip(freqs[strongest], mag[strongest]))
+
+
